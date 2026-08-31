@@ -2,6 +2,7 @@
 Proyecto (Individual)
 
 ## Descripción del Proyecto
+Notes App es una aplicación que permite al usuario crear, consultar, editar, eliminar y buscar notas de manera sencilla.
 
 ## Justificación del proyecto
 
