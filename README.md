@@ -5,6 +5,14 @@ Proyecto (Individual)
 Notes App es una aplicación que permite al usuario crear, consultar, editar, eliminar y buscar notas de manera sencilla.
 
 ## Justificación del proyecto
+Se eligió desarrollar una aplicación de notas porque es un proyecto sencillo, pero permite aplicar conceptos fundamentales de Ingeniería de Software, 
+como historias de usuario, Issues, control de versiones, modelado y desarrollo incremental.
+
+El proyecto permite organizar información de manera sencilla mediante
+la creación, edición, eliminación, búsqueda y almacenamiento de notas.
+
+Además, su alcance es adecuado para un desarrollo individual, ya que las funcionalidades pueden implementarse de manera progresiva
+y relacionarse directamente con las historias de usuario definidas.
 
 ## User Stories
 * Como usuario, quiero crear una nota para guardar información importante.
