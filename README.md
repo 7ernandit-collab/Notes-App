@@ -32,6 +32,14 @@ y relacionarse directamente con las historias de usuario definidas.
 * Como usuario, quiero visualizar la fecha de creación y modificación de cada nota para saber cuándo fue creada o actualizada.
 
 ## Metodología
+Para el desarrollo del proyecto se utilizará una metodología ágil,
+debido a que el proyecto se desarrolla de manera incremental.
+
+Las funcionalidades se organizarán mediante historias de usuario e Issues de GitHub. 
+Cada funcionalidad será desarrollada, probada y registrada mediante commits relacionados con su Issue correspondiente.
+
+El tablero Kanban permitirá visualizar el progreso de cada tarea
+mediante las columnas To Do, In Progress y Done.
 
 ## Arquitectura del proyecto
 
