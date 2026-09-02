@@ -53,10 +53,14 @@ El proyecto está organizado en dos archivos principales:
 
 ```text
  Notes-App/
- ├── docs/
- ├── database.py                           
- ├── README.md                             # Documentación principal del repositorio
- └── docs.md                      
+├── docs/
+│   ├── diagrama-casos-uso.png
+│   └── diagrama-flujo.png
+├── database.py
+├── main.py
+├── README.md
+├── RETROSPECTIVA.md
+└── .gitignore                 
 ```
 
 main.py
