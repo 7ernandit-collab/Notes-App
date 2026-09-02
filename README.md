@@ -59,6 +59,36 @@ El proyecto está organizado en dos archivos principales:
  └── docs.md                      
 ```
 
+main.py
+
+Contiene la interfaz gráfica de la aplicación desarrollada con Tkinter.
+
+En este archivo se encuentran las funciones que permiten al usuario:
+
+Crear notas.
+Editar notas.
+Eliminar notas.
+Buscar notas.
+Mostrar todas las notas.
+Fijar y desfijar notas.
+Limpiar los campos.
+Visualizar la fecha de creación y modificación.
+database.py
+
+Contiene las funciones encargadas de administrar la información mediante SQLite.
+
+Se utiliza para:
+
+Crear la tabla de notas.
+Guardar nuevas notas.
+Consultar las notas existentes.
+Editar notas.
+Eliminar notas.
+Buscar notas.
+Cambiar el estado de una nota fijada.
+
+La separación entre main.py y database.py permite separar la interfaz gráfica de las operaciones de almacenamiento de información.
+
 ## Instrucciones de ejecución
 
 ## Integrante:
