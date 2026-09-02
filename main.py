@@ -185,9 +185,9 @@ def cargar_lista(notas):
         fijada = nota[3]
 
         if fijada == 1:
-            texto = f"📌 {titulo}"
+            texto = f"{titulo}"
         else:
-            texto = f"📝 {titulo}"
+            texto = f"{titulo}"
 
         lista_notas.insert(
             tk.END,
@@ -250,7 +250,7 @@ ventana.minsize(
 
 titulo_principal = tk.Label(
     ventana,
-    text="📝 Notes App",
+    text="Notes App",
     font=("Arial", 26, "bold")
 )
 
@@ -276,7 +276,7 @@ frame_busqueda.pack(
 
 etiqueta_busqueda = tk.Label(
     frame_busqueda,
-    text="🔎 Buscar:",
+    text="Buscar:",
     font=("Arial", 12)
 )
 
@@ -478,7 +478,7 @@ frame_botones.pack(
 
 boton_crear = tk.Button(
     frame_botones,
-    text="➕ Crear",
+    text="Crear",
     width=12,
     command=crear_nota
 )
@@ -492,7 +492,7 @@ boton_crear.grid(
 
 boton_editar = tk.Button(
     frame_botones,
-    text="✏️ Editar",
+    text="Editar",
     width=12,
     command=editar_nota
 )
@@ -506,7 +506,7 @@ boton_editar.grid(
 
 boton_eliminar = tk.Button(
     frame_botones,
-    text="🗑️ Eliminar",
+    text="Eliminar",
     width=12,
     command=eliminar_nota
 )
@@ -520,7 +520,7 @@ boton_eliminar.grid(
 
 boton_fijar = tk.Button(
     frame_botones,
-    text="📌 Fijar",
+    text="Fijar",
     width=12,
     command=fijar_nota
 )
