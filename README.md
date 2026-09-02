@@ -88,10 +88,6 @@ Cambiar el estado de una nota fijada.
 
 La separación entre main.py y database.py permite separar la interfaz gráfica de las operaciones de almacenamiento de información.
 
-## Diagram
-
-
-
 ## Instrucciones de ejecución
 
 Para ejecutar el proyecto se necesita:
