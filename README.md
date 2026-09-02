@@ -91,5 +91,25 @@ La separación entre main.py y database.py permite separar la interfaz gráfica 
 
 ## Instrucciones de ejecución
 
+Para ejecutar el proyecto se necesita:
+
+Python 3.
+Visual Studio Code o cualquier otro editor de código compatible.
+Tkinter.
+SQLite.
+
+SQLite se utiliza como sistema de almacenamiento local, por lo que no es necesario instalar un servidor de base de datos externo.
+
+Ejecución
+Clonar el repositorio:
+git clone https://github.com/7ernandit-collab/Notes-App.git
+Entrar a la carpeta:
+cd Notes-App
+Ejecutar el programa:
+python main.py
+La aplicación abrirá la interfaz gráfica de Notes App.
+
+La base de datos se crea automáticamente al ejecutar el programa.
+
 ## Integrante:
 → Ana Fernanda Loera Mendoza - 7ernandit-collab
