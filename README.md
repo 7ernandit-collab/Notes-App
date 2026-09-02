@@ -88,6 +88,65 @@ Cambiar el estado de una nota fijada.
 
 La separación entre main.py y database.py permite separar la interfaz gráfica de las operaciones de almacenamiento de información.
 
+<br>
+
+<div align="center">
+
+```mermaid
+flowchart TD
+    Inicio([Inicio]) --> Abrir[Abrir Notes App]
+    Abrir --> Cargar[Mostrar interfaz principal y cargar notas]
+    Cargar --> Op[/Seleccionar una opción/]
+
+    Op --> C_Crear[Crear nota]
+    Op --> C_Editar[Editar nota]
+    Op --> C_Eliminar[Eliminar nota]
+    Op --> C_Buscar[Buscar nota]
+    Op --> C_Fijar[Fijar / Desfijar nota]
+    Op --> C_Consultar[Consultar notas]
+
+    C_Crear --> N1[Ingresar título y contenido]
+    N1 --> N2[Guardar nota en SQLite fecha de creación]
+    N2 --> N3[Mostrar mensaje de confirmación]
+
+    C_Editar --> E1[Seleccionar nota]
+    E1 --> E2[Modificar título o contenido]
+    E2 --> E3[Actualizar en SQLite fecha de modificación]
+    E3 --> E4[Mostrar mensaje de confirmación]
+
+    C_Eliminar --> D1[Seleccionar nota]
+    D1 --> D2[Confirmar eliminación]
+    D2 --> D3[Eliminar de SQLite]
+    D3 --> D4[Mostrar mensaje de confirmación]
+
+    C_Buscar --> B1[Ingresar texto de búsqueda]
+    B1 --> B2[Buscar en SQLite título o contenido]
+    B2 --> B3[Mostrar resultados]
+
+    C_Fijar --> F1[Seleccionar nota]
+    F1 --> F2["Cambiar estado (Fijada = 1 / 0)"]
+    F2 --> F3[Actualizar en SQLite]
+    F3 --> F4[Mostrar mensaje de confirmación]
+
+    C_Consultar --> Q1[Cargar todas las notas]
+    Q1 --> Q2[Mostrar lista de notas ordenadas Fijadas primero]
+    Q2 --> Q3[Visualizar fecha de creación y modificación]
+
+    N3 --> Pregunta{¿Desea realizar otra acción?}
+    E4 --> Pregunta
+    D4 --> Pregunta
+    B3 --> Pregunta
+    F4 --> Pregunta
+    Q3 --> Pregunta
+
+    Pregunta -- Sí --> Op
+    Pregunta -- No --> Fin([Fin])
+```
+
+</div>
+
+<br>
+
 ## Instrucciones de ejecución
 
 Para ejecutar el proyecto se necesita:
