@@ -49,6 +49,14 @@ El tablero Kanban permitirá visualizar el progreso de cada tarea
 mediante las columnas To Do, In Progress y Done.
 
 ## Arquitectura del proyecto
+El proyecto está organizado en dos archivos principales:
+
+Notes-App/
+│
+├── main.py
+├── database.py
+├── README.md
+└── docs/
 
 ## Instrucciones de ejecución
 
