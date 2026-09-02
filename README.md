@@ -50,7 +50,6 @@ El proyecto está organizado en dos archivos principales:
 ```text
  Notes-App/
 ├── docs/
-│   ├── diagrama-casos-uso.png
 │   └── diagrama-flujo.png
 ├── database.py
 ├── main.py
